@@ -1,0 +1,520 @@
+﻿Log file open, 10/14/16 19:06:43
+LogInit:Display: Running engine for game: MixedRealitySample
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1587049421) SRandInit(1587049422).
+LogInit: Using version manifest at CL 0 with build ID '743d064e-e81c-4a22-ae11-34dea6deee71'
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.070245
+LogInit: Version: 4.12.5-0+UE4
+LogInit: API Version: 0
+LogInit: Net Version: 0
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Sep 20 2016 16:15:50
+LogInit: Compiled with Visual C++: 19.00.24213.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: UE4
+LogInit: Command line:  /Temp/Autosaves/Game/Level/UEDPCTestMap -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess -windowed -messaging -SessionName="Play in Standalone Game" -nohmd 
+LogInit: Base directory: C:/Users/Degica-hasegawa/Desktop/UnrealEngine-4.12/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 0
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.10.14-10.06.43:794][  0]LogInit: Selected Device Profile: [Windows]
+[2016.10.14-10.06.43:794][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.10.14-10.06.43:797][  0]LogInit: Computer: DEGICA
+[2016.10.14-10.06.43:797][  0]LogInit: User: Degicahasegawa
+[2016.10.14-10.06.43:797][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.10.14-10.06.43:797][  0]LogInit: High frequency timer resolution =3.319350 MHz
+[2016.10.14-10.06.43:797][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.10.14-10.06.43:797][  0]LogMemory: Platform Memory Stats for Windows
+[2016.10.14-10.06.43:797][  0]LogMemory: Process Physical Memory: 187.25 MB used, 187.25 MB peak
+[2016.10.14-10.06.43:797][  0]LogMemory: Process Virtual Memory: 195.04 MB used, 195.04 MB peak
+[2016.10.14-10.06.43:797][  0]LogMemory: Physical Memory: 7668.24 MB used, 16304.32 MB total
+[2016.10.14-10.06.43:797][  0]LogMemory: Virtual Memory: 526.92 MB used, 134217728.00 MB total
+[2016.10.14-10.06.43:829][  0]LogTextLocalizationManager: No specific translations for ('ja-JP') exist, so ('ja') translations will be used.
+[2016.10.14-10.06.43:909][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:K2Node, Key:false):
+Localization Resource: (C:/Users/Degica-hasegawa/Desktop/UnrealEngine-4.12/Engine/Content/Localization/EditorTutorials/ja/EditorTutorials.locres) Source String Hash: (816077464) Localized String: (偽)
+Localization Resource: (C:/Users/Degica-hasegawa/Desktop/UnrealEngine-4.12/Engine/Content/Localization/Engine/ja/Engine.locres) Source String Hash: (816077464) Localized String: (false)
+[2016.10.14-10.06.43:909][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:K2Node, Key:true):
+Localization Resource: (C:/Users/Degica-hasegawa/Desktop/UnrealEngine-4.12/Engine/Content/Localization/EditorTutorials/ja/EditorTutorials.locres) Source String Hash: (-942328987) Localized String: (真)
+Localization Resource: (C:/Users/Degica-hasegawa/Desktop/UnrealEngine-4.12/Engine/Content/Localization/Engine/ja/Engine.locres) Source String Hash: (-942328987) Localized String: (true)
+[2016.10.14-10.06.43:909][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:bLoop):
+Localization Resource: (C:/Users/Degica-hasegawa/Desktop/UnrealEngine-4.12/Engine/Content/Localization/EditorTutorials/ja/EditorTutorials.locres) Source String Hash: (2133979316) Localized String: (再生が最後まで終わった後、ロープ再生するようにしますか？)
+Localization Resource: (C:/Users/Degica-hasegawa/Desktop/UnrealEngine-4.12/Engine/Content/Localization/ToolTips/ja/ToolTips.locres) Source String Hash: (2133979316) Localized String: (ループが最後まで到達した時に、アニメーションのループを継続するべきか？)
+[2016.10.14-10.06.43:909][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:X):
+Localization Resource: (C:/Users/Degica-hasegawa/Desktop/UnrealEngine-4.12/Engine/Content/Localization/EditorTutorials/ja/EditorTutorials.locres) Source String Hash: (2060772590) Localized String: (ブレンドスペースで値を取得するX座標)
+Localization Resource: (C:/Users/Degica-hasegawa/Desktop/UnrealEngine-4.12/Engine/Content/Localization/ToolTips/ja/ToolTips.locres) Source String Hash: (2060772590) Localized String: (ブレンドスペースでサンプリングするX座標)
+[2016.10.14-10.06.43:909][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:Y):
+Localization Resource: (C:/Users/Degica-hasegawa/Desktop/UnrealEngine-4.12/Engine/Content/Localization/EditorTutorials/ja/EditorTutorials.locres) Source String Hash: (-1719607538) Localized String: (ブレンドスペースで値を取得するY座標)
+Localization Resource: (C:/Users/Degica-hasegawa/Desktop/UnrealEngine-4.12/Engine/Content/Localization/ToolTips/ja/ToolTips.locres) Source String Hash: (-1719607538) Localized String: (ブレンドスペースでサンプリングするY座標)
+[2016.10.14-10.06.43:909][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:Z):
+Localization Resource: (C:/Users/Degica-hasegawa/Desktop/UnrealEngine-4.12/Engine/Content/Localization/EditorTutorials/ja/EditorTutorials.locres) Source String Hash: (1728943471) Localized String: (ブレンドスペースで値を取得するZ座標)
+Localization Resource: (C:/Users/Degica-hasegawa/Desktop/UnrealEngine-4.12/Engine/Content/Localization/ToolTips/ja/ToolTips.locres) Source String Hash: (1728943471) Localized String: (ブレンドスペースでサンプリングするZ座標)
+[2016.10.14-10.06.43:909][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:BlendSpace):
+Localization Resource: (C:/Users/Degica-hasegawa/Desktop/UnrealEngine-4.12/Engine/Content/Localization/EditorTutorials/ja/EditorTutorials.locres) Source String Hash: (1599043277) Localized String: (再生するブレンドスペースのアセット)
+Localization Resource: (C:/Users/Degica-hasegawa/Desktop/UnrealEngine-4.12/Engine/Content/Localization/ToolTips/ja/ToolTips.locres) Source String Hash: (1599043277) Localized String: (再生するブレンド空間アセット)
+[2016.10.14-10.06.43:909][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_StateMachine:MaxTransitionsPerFrame):
+Localization Resource: (C:/Users/Degica-hasegawa/Desktop/UnrealEngine-4.12/Engine/Content/Localization/EditorTutorials/ja/EditorTutorials.locres) Source String Hash: (1567650430) Localized String: (このマシーンで1フレームあたりに同時に処理できるトランジションの最大数)
+Localization Resource: (C:/Users/Degica-hasegawa/Desktop/UnrealEngine-4.12/Engine/Content/Localization/ToolTips/ja/ToolTips.locres) Source String Hash: (1567650430) Localized String: (単一フレームでマシーンが「同時」に受け取れる遷移の最大数)
+[2016.10.14-10.06.43:909][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:PlayRate):
+Localization Resource: (C:/Users/Degica-hasegawa/Desktop/UnrealEngine-4.12/Engine/Content/Localization/EditorTutorials/ja/EditorTutorials.locres) Source String Hash: (-1274923958) Localized String: (再生速度の倍率です。負の数値も使う事ができます。その場合逆再生になります。)
+Localization Resource: (C:/Users/Degica-hasegawa/Desktop/UnrealEngine-4.12/Engine/Content/Localization/ToolTips/ja/ToolTips.locres) Source String Hash: (-1274923958) Localized String: (再生レート乗数。アニメーションを逆再生する負の値にすることができます。)
+[2016.10.14-10.06.44:039][  0]LogD3D11RHI: D3D11 adapters:
+[2016.10.14-10.06.44:055][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980' (Feature Level 11_0)
+[2016.10.14-10.06.44:055][  0]LogD3D11RHI:       3976/0/8152 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2016.10.14-10.06.44:056][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.10.14-10.06.44:056][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.10.14-10.06.44:056][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.10.14-10.06.44:061][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.10.14-10.06.44:061][  0]LogD3D11RHI:     GPU DeviceId: 0x13c0 (for the marketing name, search the web for "GPU Device Id")
+[2016.10.14-10.06.44:061][  0]LogWindows: EnumDisplayDevices:
+[2016.10.14-10.06.44:061][  0]LogWindows:    0. 'NVIDIA GeForce GTX 980' (P:1 D:1)
+[2016.10.14-10.06.44:061][  0]LogWindows:    1. 'NVIDIA GeForce GTX 980' (P:0 D:0)
+[2016.10.14-10.06.44:062][  0]LogWindows:    2. 'NVIDIA GeForce GTX 980' (P:0 D:0)
+[2016.10.14-10.06.44:062][  0]LogWindows:    3. 'NVIDIA GeForce GTX 980' (P:0 D:0)
+[2016.10.14-10.06.44:062][  0]LogWindows:    4. 'Radmin Mirror Driver V3' (P:0 D:0)
+[2016.10.14-10.06.44:062][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2016.10.14-10.06.44:062][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980
+[2016.10.14-10.06.44:062][  0]LogD3D11RHI:   Driver Version: 372.54 (internal:21.21.13.7254, unified:372.54)
+[2016.10.14-10.06.44:062][  0]LogD3D11RHI:      Driver Date: 8-11-2016
+[2016.10.14-10.06.44:062][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.10.14-10.06.44:071][  0]LogD3D11RHI: Async texture creation enabled
+[2016.10.14-10.06.44:087][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2016.10.14-10.06.44:087][  0]LogShaderCompilers: Guid format shader working directory is -11 characters bigger than the processId version (../../../../../Documents/Unreal Projects/MixedRealitySample/Intermediate/Shaders/WorkingDirectory/21200/).
+[2016.10.14-10.06.44:087][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/DEGICA~2/AppData/Local/Temp/UnrealShaderWorkingDir/66E33E9848DB37861D975AB4CA9FAC0E/'.
+[2016.10.14-10.06.44:087][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.10.14-10.06.44:917][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.10.14-10.06.44:925][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.10.14-10.06.44:934][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.10.14-10.06.44:941][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.10.14-10.06.44:941][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.10.14-10.06.44:998][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.10.14-10.06.45:048][  0]LogDerivedDataCache: Loaded boot cache 0.05s 48MB ../../../../../Documents/Unreal Projects/MixedRealitySample/DerivedDataCache/Boot.ddc.
+[2016.10.14-10.06.45:049][  0]LogDerivedDataCache:Display: Loaded Boot cache: ../../../../../Documents/Unreal Projects/MixedRealitySample/DerivedDataCache/Boot.ddc
+[2016.10.14-10.06.45:049][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Documents/Unreal Projects/MixedRealitySample/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.10.14-10.06.45:049][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.10.14-10.06.45:049][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.10.14-10.06.45:049][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2016.10.14-10.06.45:061][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2016.10.14-10.06.45:061][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2016.10.14-10.06.45:061][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2016.10.14-10.06.45:251][  0]LogAssetRegistry: FAssetRegistry took 0.0001 seconds to start up
+[2016.10.14-10.06.45:257][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.005822 seconds
+[2016.10.14-10.06.45:260][  0]LogInit: Selected Device Profile: [Windows]
+[2016.10.14-10.06.45:261][  0]LogContentStreaming: Texture pool size is 1000.00 MB
+[2016.10.14-10.06.45:405][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.10.14-10.06.45:405][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.10.14-10.06.45:405][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.10.14-10.06.45:596][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.10.14-10.06.45:719][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.10.14-10.06.45:719][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.10.14-10.06.45:794][  0]LogMoviePlayer: Initializing movie player
+[2016.10.14-10.06.45:872][  0]LogWindowsMoviePlayer: Unable to load movie: ../../../../../Documents/Unreal Projects/MixedRealitySample/Content/Movies/Default_Startup.mp4
+[2016.10.14-10.06.45:939][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.10.14-10.06.46:005][  0]SourceControl: 情報 ソースコントロールは無効です
+[2016.10.14-10.06.46:005][  0]SourceControl: 情報 ソースコントロールは無効です
+[2016.10.14-10.06.46:013][  0]SourceControl: 情報 ソースコントロールは無効です
+[2016.10.14-10.06.46:123][  0]LogUObjectArray: 30991 objects as part of root set at end of initial load.
+[2016.10.14-10.06.46:123][  0]LogUObjectAllocator: 6718232 out of 0 bytes used by permanent object pool.
+[2016.10.14-10.06.46:123][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.10.14-10.06.46:168][  0]LogEngine: Initializing Engine...
+[2016.10.14-10.06.46:303][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-538408E7
+[2016.10.14-10.06.46:318][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-538408E7
+[2016.10.14-10.06.46:320][  0]LogInit: XAudio2 using 'スピーカー (2- USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.14-10.06.46:326][  0]LogInit: FAudioDevice initialized.
+[2016.10.14-10.06.46:330][  0]LogInit: Texture streaming: Enabled
+[2016.10.14-10.06.46:387][  0]LogConsoleManager:Warning: Setting the console variable 'r.VSync' with 'SetByGameSetting' was ignored as it is lower priority than the previous 'SetByCode'
+[2016.10.14-10.06.46:406][  0]LogNet: Browse: /Temp/Autosaves/Game/Level/UEDPCTestMap?Name=Player
+[2016.10.14-10.06.46:406][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/Level/UEDPCTestMap?Name=Player
+[2016.10.14-10.06.46:433][  0]LogMemory: Platform Memory Stats for Windows
+[2016.10.14-10.06.46:433][  0]LogMemory: Process Physical Memory: 494.48 MB used, 524.28 MB peak
+[2016.10.14-10.06.46:433][  0]LogMemory: Process Virtual Memory: 559.05 MB used, 573.13 MB peak
+[2016.10.14-10.06.46:433][  0]LogMemory: Physical Memory: 7920.19 MB used, 16304.32 MB total
+[2016.10.14-10.06.46:433][  0]LogMemory: Virtual Memory: 1117.89 MB used, 134217728.00 MB total
+[2016.10.14-10.06.46:433][  0]LogMemory: 
+[2016.10.14-10.06.46:433][  0]Allocator Stats for TBB: (not implemented)
+[2016.10.14-10.06.46:640][  0]LogAIModule: Creating AISystem for world TestMap
+[2016.10.14-10.06.46:640][  0]LogWorld: Game class is 'NewBlueprint_C'
+[2016.10.14-10.06.46:643][  0]LogWorld: Bringing World /Temp/Autosaves/Game/Level/UEDPCTestMap.TestMap up for play (max tick rate 0) at 2016.10.14-19.06.46
+[2016.10.14-10.06.46:643][  0]LogWorld: Bringing up level for play took: 0.001964
+[2016.10.14-10.06.46:644][  0]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=0.000 Y=0.000 Z=0.000] for [VR_Pawn_C]
+[2016.10.14-10.06.46:644][  0]LogGameMode:Warning: Couldn't spawn Pawn of type VR_Pawn_C at PlayerStart_1
+[2016.10.14-10.06.46:645][  0]LogLoad: Took 0.237598 seconds to LoadMap(/Temp/Autosaves/Game/Level/UEDPCTestMap)
+[2016.10.14-10.06.46:645][  0]LogInit:Display: Game Engine Initialized.
+[2016.10.14-10.06.46:761][  0]LogLoad: Full Startup: 3.52 seconds (BP compile: 0.05 seconds)
+[2016.10.14-10.06.46:761][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2016.10.14-10.06.46:783][  0]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Google 日本語入力).
+[2016.10.14-10.06.46:783][  0]LogOcInput: OculusInput pre-init called
+[2016.10.14-10.06.46:844][  0]LogRenderer: Reallocating scene render targets to support 128x128 (Frame:1).
+[2016.10.14-10.06.46:884][  0]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:1).
+[2016.10.14-10.06.46:985][  3]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:3).
+[2016.10.14-10.06.47:000][  4]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:3).
+[2016.10.14-10.06.47:026][  5]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:5).
+[2016.10.14-10.06.47:050][  6]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:5).
+[2016.10.14-10.06.47:075][  7]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:7).
+[2016.10.14-10.06.47:097][  8]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:7).
+[2016.10.14-10.06.47:114][  9]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:9).
+[2016.10.14-10.06.47:140][ 10]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:9).
+[2016.10.14-10.06.47:167][ 11]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:11).
+[2016.10.14-10.06.47:199][ 12]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:11).
+[2016.10.14-10.06.47:216][ 13]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:13).
+[2016.10.14-10.06.47:239][ 14]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:13).
+[2016.10.14-10.06.47:266][ 15]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:15).
+[2016.10.14-10.06.47:282][ 16]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:15).
+[2016.10.14-10.06.47:299][ 17]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:17).
+[2016.10.14-10.06.47:330][ 18]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:17).
+[2016.10.14-10.06.47:346][ 19]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:19).
+[2016.10.14-10.06.47:369][ 20]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:19).
+[2016.10.14-10.06.47:390][ 21]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:21).
+[2016.10.14-10.06.47:411][ 22]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:21).
+[2016.10.14-10.06.47:447][ 23]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:23).
+[2016.10.14-10.06.47:463][ 24]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:23).
+[2016.10.14-10.06.47:479][ 25]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:25).
+[2016.10.14-10.06.47:495][ 26]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:25).
+[2016.10.14-10.06.47:517][ 27]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:27).
+[2016.10.14-10.06.47:549][ 28]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:27).
+[2016.10.14-10.06.47:565][ 29]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:29).
+[2016.10.14-10.06.47:585][ 30]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:29).
+[2016.10.14-10.06.47:606][ 31]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:31).
+[2016.10.14-10.06.47:630][ 32]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:31).
+[2016.10.14-10.06.47:647][ 33]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:33).
+[2016.10.14-10.06.47:671][ 34]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:33).
+[2016.10.14-10.06.47:690][ 35]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:35).
+[2016.10.14-10.06.47:710][ 36]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:35).
+[2016.10.14-10.06.47:732][ 37]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:37).
+[2016.10.14-10.06.47:757][ 38]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:37).
+[2016.10.14-10.06.47:777][ 39]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:39).
+[2016.10.14-10.06.47:793][ 40]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:39).
+[2016.10.14-10.06.47:817][ 41]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:41).
+[2016.10.14-10.06.47:839][ 42]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:41).
+[2016.10.14-10.06.47:858][ 43]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:43).
+[2016.10.14-10.06.47:877][ 44]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:43).
+[2016.10.14-10.06.47:896][ 45]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:45).
+[2016.10.14-10.06.47:928][ 46]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:45).
+[2016.10.14-10.06.47:949][ 47]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:47).
+[2016.10.14-10.06.47:972][ 48]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:47).
+[2016.10.14-10.06.47:988][ 49]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:49).
+[2016.10.14-10.06.48:012][ 50]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:49).
+[2016.10.14-10.06.48:031][ 51]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:51).
+[2016.10.14-10.06.48:050][ 52]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:51).
+[2016.10.14-10.06.48:074][ 53]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:53).
+[2016.10.14-10.06.48:095][ 54]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:53).
+[2016.10.14-10.06.48:114][ 55]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:55).
+[2016.10.14-10.06.48:135][ 56]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:55).
+[2016.10.14-10.06.48:155][ 57]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:57).
+[2016.10.14-10.06.48:179][ 58]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:57).
+[2016.10.14-10.06.48:196][ 59]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:59).
+[2016.10.14-10.06.48:214][ 60]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:59).
+[2016.10.14-10.06.48:237][ 61]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:61).
+[2016.10.14-10.06.48:258][ 62]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:61).
+[2016.10.14-10.06.48:276][ 63]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:63).
+[2016.10.14-10.06.48:295][ 64]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:63).
+[2016.10.14-10.06.48:317][ 65]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:65).
+[2016.10.14-10.06.48:339][ 66]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:65).
+[2016.10.14-10.06.48:356][ 67]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:67).
+[2016.10.14-10.06.48:372][ 68]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:67).
+[2016.10.14-10.06.48:393][ 69]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:69).
+[2016.10.14-10.06.48:417][ 70]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:69).
+[2016.10.14-10.06.48:449][ 71]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:71).
+[2016.10.14-10.06.48:466][ 72]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:71).
+[2016.10.14-10.06.48:482][ 73]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:73).
+[2016.10.14-10.06.48:498][ 74]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:73).
+[2016.10.14-10.06.48:517][ 75]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:75).
+[2016.10.14-10.06.48:546][ 76]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:75).
+[2016.10.14-10.06.48:578][ 77]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:77).
+[2016.10.14-10.06.48:594][ 78]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:77).
+[2016.10.14-10.06.48:613][ 79]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:79).
+[2016.10.14-10.06.48:624][ 80]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:79).
+[2016.10.14-10.06.48:641][ 81]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:81).
+[2016.10.14-10.06.48:658][ 81]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:81).
+[2016.10.14-10.06.48:677][ 83]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:83).
+[2016.10.14-10.06.48:703][ 84]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:83).
+[2016.10.14-10.06.48:730][ 85]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:85).
+[2016.10.14-10.06.48:746][ 86]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:85).
+[2016.10.14-10.06.48:762][ 87]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:87).
+[2016.10.14-10.06.48:781][ 88]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:87).
+[2016.10.14-10.06.48:797][ 89]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:89).
+[2016.10.14-10.06.48:814][ 90]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:89).
+[2016.10.14-10.06.48:831][ 91]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:91).
+[2016.10.14-10.06.48:847][ 92]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:91).
+[2016.10.14-10.06.48:868][ 93]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:93).
+[2016.10.14-10.06.48:888][ 94]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:93).
+[2016.10.14-10.06.48:914][ 95]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:95).
+[2016.10.14-10.06.48:930][ 96]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:95).
+[2016.10.14-10.06.48:945][ 96]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:97).
+[2016.10.14-10.06.48:972][ 98]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:97).
+[2016.10.14-10.06.48:988][ 99]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:99).
+[2016.10.14-10.06.49:006][100]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:99).
+[2016.10.14-10.06.49:038][101]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:101).
+[2016.10.14-10.06.49:054][102]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:101).
+[2016.10.14-10.06.49:071][103]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:103).
+[2016.10.14-10.06.49:089][104]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:103).
+[2016.10.14-10.06.49:107][104]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:105).
+[2016.10.14-10.06.49:126][106]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:105).
+[2016.10.14-10.06.49:147][107]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:107).
+[2016.10.14-10.06.49:176][108]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:107).
+[2016.10.14-10.06.49:192][109]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:109).
+[2016.10.14-10.06.49:210][110]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:109).
+[2016.10.14-10.06.49:231][111]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:111).
+[2016.10.14-10.06.49:254][112]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:111).
+[2016.10.14-10.06.49:271][113]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:113).
+[2016.10.14-10.06.49:288][114]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:113).
+[2016.10.14-10.06.49:307][115]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:115).
+[2016.10.14-10.06.49:326][116]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:115).
+[2016.10.14-10.06.49:348][117]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:117).
+[2016.10.14-10.06.49:371][118]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:117).
+[2016.10.14-10.06.49:389][119]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:119).
+[2016.10.14-10.06.49:407][120]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:119).
+[2016.10.14-10.06.49:424][121]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:121).
+[2016.10.14-10.06.49:451][122]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:121).
+[2016.10.14-10.06.49:468][123]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:123).
+[2016.10.14-10.06.49:491][124]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:123).
+[2016.10.14-10.06.49:507][125]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:125).
+[2016.10.14-10.06.49:529][126]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:125).
+[2016.10.14-10.06.49:552][127]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:127).
+[2016.10.14-10.06.49:573][128]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:127).
+[2016.10.14-10.06.49:589][129]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:129).
+[2016.10.14-10.06.49:605][130]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:129).
+[2016.10.14-10.06.49:624][131]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:131).
+[2016.10.14-10.06.49:646][132]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:131).
+[2016.10.14-10.06.49:665][133]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:133).
+[2016.10.14-10.06.49:687][134]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:133).
+[2016.10.14-10.06.49:710][135]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:135).
+[2016.10.14-10.06.49:731][136]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:135).
+[2016.10.14-10.06.49:747][137]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:137).
+[2016.10.14-10.06.49:764][138]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:137).
+[2016.10.14-10.06.49:780][139]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:139).
+[2016.10.14-10.06.49:799][140]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:139).
+[2016.10.14-10.06.49:819][141]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:141).
+[2016.10.14-10.06.49:843][142]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:141).
+[2016.10.14-10.06.49:866][143]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:143).
+[2016.10.14-10.06.49:887][144]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:143).
+[2016.10.14-10.06.49:917][144]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:145).
+[2016.10.14-10.06.49:959][146]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:145).
+[2016.10.14-10.06.49:979][147]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:147).
+[2016.10.14-10.06.50:016][148]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:147).
+[2016.10.14-10.06.50:043][149]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:149).
+[2016.10.14-10.06.50:078][150]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:149).
+[2016.10.14-10.06.50:104][151]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:151).
+[2016.10.14-10.06.50:133][152]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:151).
+[2016.10.14-10.06.50:162][153]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:153).
+[2016.10.14-10.06.50:201][154]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:153).
+[2016.10.14-10.06.50:234][155]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:155).
+[2016.10.14-10.06.50:274][156]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:155).
+[2016.10.14-10.06.50:297][157]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:157).
+[2016.10.14-10.06.50:332][158]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:157).
+[2016.10.14-10.06.50:363][159]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:159).
+[2016.10.14-10.06.50:405][160]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:159).
+[2016.10.14-10.06.50:433][161]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:161).
+[2016.10.14-10.06.50:463][162]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:161).
+[2016.10.14-10.06.50:485][163]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:163).
+[2016.10.14-10.06.50:516][164]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:163).
+[2016.10.14-10.06.50:538][164]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:165).
+[2016.10.14-10.06.50:570][165]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:165).
+[2016.10.14-10.06.50:599][167]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:167).
+[2016.10.14-10.06.50:635][168]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:167).
+[2016.10.14-10.06.50:666][169]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:169).
+[2016.10.14-10.06.50:704][170]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:169).
+[2016.10.14-10.06.50:731][171]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:171).
+[2016.10.14-10.06.50:762][172]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:171).
+[2016.10.14-10.06.50:787][173]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:173).
+[2016.10.14-10.06.50:827][174]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:173).
+[2016.10.14-10.06.50:854][175]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:175).
+[2016.10.14-10.06.50:889][176]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:175).
+[2016.10.14-10.06.50:910][177]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:177).
+[2016.10.14-10.06.50:929][178]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:177).
+[2016.10.14-10.06.50:945][179]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:179).
+[2016.10.14-10.06.50:967][180]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:179).
+[2016.10.14-10.06.50:983][181]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:181).
+[2016.10.14-10.06.51:003][181]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:181).
+[2016.10.14-10.06.51:030][183]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:183).
+[2016.10.14-10.06.51:053][184]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:183).
+[2016.10.14-10.06.51:069][185]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:185).
+[2016.10.14-10.06.51:087][186]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:185).
+[2016.10.14-10.06.51:107][187]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:187).
+[2016.10.14-10.06.51:124][188]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:187).
+[2016.10.14-10.06.51:145][189]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:189).
+[2016.10.14-10.06.51:166][190]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:189).
+[2016.10.14-10.06.51:183][191]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:191).
+[2016.10.14-10.06.51:200][192]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:191).
+[2016.10.14-10.06.51:221][193]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:193).
+[2016.10.14-10.06.51:254][194]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:193).
+[2016.10.14-10.06.51:270][195]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:195).
+[2016.10.14-10.06.51:288][196]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:195).
+[2016.10.14-10.06.51:308][197]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:197).
+[2016.10.14-10.06.51:332][198]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:197).
+[2016.10.14-10.06.51:354][199]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:199).
+[2016.10.14-10.06.51:376][200]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:199).
+[2016.10.14-10.06.51:393][201]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:201).
+[2016.10.14-10.06.51:410][202]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:201).
+[2016.10.14-10.06.51:429][203]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:203).
+[2016.10.14-10.06.51:450][204]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:203).
+[2016.10.14-10.06.51:468][205]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:205).
+[2016.10.14-10.06.51:487][206]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:205).
+[2016.10.14-10.06.51:505][207]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:207).
+[2016.10.14-10.06.51:521][208]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:207).
+[2016.10.14-10.06.51:541][209]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:209).
+[2016.10.14-10.06.51:564][210]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:209).
+[2016.10.14-10.06.51:590][211]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:211).
+[2016.10.14-10.06.51:608][212]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:211).
+[2016.10.14-10.06.51:627][213]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:213).
+[2016.10.14-10.06.51:659][214]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:213).
+[2016.10.14-10.06.51:678][215]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:215).
+[2016.10.14-10.06.51:699][216]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:215).
+[2016.10.14-10.06.51:717][217]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:217).
+[2016.10.14-10.06.51:734][218]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:217).
+[2016.10.14-10.06.51:754][219]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:219).
+[2016.10.14-10.06.51:780][220]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:219).
+[2016.10.14-10.06.51:799][221]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:221).
+[2016.10.14-10.06.51:820][222]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:221).
+[2016.10.14-10.06.51:837][223]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:223).
+[2016.10.14-10.06.51:853][224]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:223).
+[2016.10.14-10.06.51:881][224]LogRenderer: Reallocating scene render targets to support 1792x1008 (Frame:225).
+[2016.10.14-10.06.51:914][224]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Google 日本語入力).
+[2016.10.14-10.06.51:915][224]LogEngine: All Windows Closed
+[2016.10.14-10.06.51:915][224]LogWindows: FPlatformMisc::RequestExit(0)
+[2016.10.14-10.06.51:915][225]LogMoviePlayer: Shutting down movie player
+[2016.10.14-10.06.52:174][225]LogExit: Preparing to exit.
+[2016.10.14-10.06.53:064][225]LogExit: Game engine shut down
+[2016.10.14-10.06.53:152][225]LogObj: Freed 0b from 0 cluster array pools.
+[2016.10.14-10.06.53:152][225]LogExit: Object subsystem successfully closed.
+[2016.10.14-10.06.53:161][225]LogD3D11RHI: Shutdown
+[2016.10.14-10.06.53:161][225]LogD3D11RHI: CleanupD3DDevice
+[2016.10.14-10.06.53:210][225]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.10.14-10.06.53:217][225]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (110)
+[2016.10.14-10.06.53:217][225]LogModuleManager: Shutting down and abandoning module SequenceRecorder (109)
+[2016.10.14-10.06.53:217][225]LogModuleManager: Shutting down and abandoning module AutomationController (108)
+[2016.10.14-10.06.53:217][225]LogModuleManager: Shutting down and abandoning module AutomationWorker (107)
+[2016.10.14-10.06.53:217][225]LogModuleManager: Shutting down and abandoning module CharacterAI (106)
+[2016.10.14-10.06.53:217][225]LogModuleManager: Shutting down and abandoning module SessionServices (105)
+[2016.10.14-10.06.53:217][225]LogModuleManager: Shutting down and abandoning module GameplayDebugger (104)
+[2016.10.14-10.06.53:217][225]LogModuleManager: Shutting down and abandoning module AITestSuite (103)
+[2016.10.14-10.06.53:217][225]LogModuleManager: Shutting down and abandoning module AIModule (102)
+[2016.10.14-10.06.53:217][225]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (101)
+[2016.10.14-10.06.53:217][225]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (100)
+[2016.10.14-10.06.53:217][225]LogModuleManager: Shutting down and abandoning module PortalServices (99)
+[2016.10.14-10.06.53:217][225]LogModuleManager: Shutting down and abandoning module PortalRpc (98)
+[2016.10.14-10.06.53:217][225]LogModuleManager: Shutting down and abandoning module MessagingRpc (97)
+[2016.10.14-10.06.53:217][225]LogModuleManager: Shutting down and abandoning module ProfilerService (96)
+[2016.10.14-10.06.53:386][225]LogModuleManager: Shutting down and abandoning module TaskGraph (95)
+[2016.10.14-10.06.53:386][225]LogModuleManager: Shutting down and abandoning module SlateRemote (94)
+[2016.10.14-10.06.53:386][225]LogModuleManager: Shutting down and abandoning module SteamVRController (93)
+[2016.10.14-10.06.53:386][225]LogModuleManager: Shutting down and abandoning module SteamVR (92)
+[2016.10.14-10.06.53:386][225]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (91)
+[2016.10.14-10.06.53:386][225]LogModuleManager: Shutting down and abandoning module OculusLibrary (90)
+[2016.10.14-10.06.53:386][225]LogModuleManager: Shutting down and abandoning module OculusInput (89)
+[2016.10.14-10.06.53:386][225]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (88)
+[2016.10.14-10.06.53:386][225]LogModuleManager: Shutting down and abandoning module CableComponent (87)
+[2016.10.14-10.06.53:386][225]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (86)
+[2016.10.14-10.06.53:386][225]LogModuleManager: Shutting down and abandoning module HTML5Networking (85)
+[2016.10.14-10.06.53:386][225]LogModuleManager: Shutting down and abandoning module DesktopPlatform (84)
+[2016.10.14-10.06.53:386][225]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (83)
+[2016.10.14-10.06.53:386][225]LogModuleManager: Shutting down and abandoning module HotReload (82)
+[2016.10.14-10.06.53:386][225]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (81)
+[2016.10.14-10.06.53:386][225]LogModuleManager: Shutting down and abandoning module UObjectPlugin (80)
+[2016.10.14-10.06.53:386][225]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (79)
+[2016.10.14-10.06.53:386][225]LogModuleManager: Shutting down and abandoning module SourceControl (78)
+[2016.10.14-10.06.53:386][225]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (77)
+[2016.10.14-10.06.53:386][225]LogModuleManager: Shutting down and abandoning module UdpMessaging (76)
+[2016.10.14-10.06.53:487][225]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (75)
+[2016.10.14-10.06.53:487][225]LogModuleManager: Shutting down and abandoning module Paper2D (74)
+[2016.10.14-10.06.53:487][225]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (73)
+[2016.10.14-10.06.53:487][225]LogModuleManager: Shutting down and abandoning module Media (72)
+[2016.10.14-10.06.53:487][225]LogModuleManager: Shutting down and abandoning module WmfMedia (71)
+[2016.10.14-10.06.53:487][225]LogModuleManager: Shutting down and abandoning module MediaAssets (70)
+[2016.10.14-10.06.53:487][225]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (69)
+[2016.10.14-10.06.53:487][225]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (68)
+[2016.10.14-10.06.53:487][225]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (67)
+[2016.10.14-10.06.53:487][225]LogModuleManager: Shutting down and abandoning module VREditor (66)
+[2016.10.14-10.06.53:487][225]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (65)
+[2016.10.14-10.06.53:487][225]LogModuleManager: Shutting down and abandoning module PropertyEditor (64)
+[2016.10.14-10.06.53:487][225]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (63)
+[2016.10.14-10.06.53:487][225]LogModuleManager: Shutting down and abandoning module FunctionalTesting (62)
+[2016.10.14-10.06.53:487][225]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (61)
+[2016.10.14-10.06.53:487][225]LogModuleManager: Shutting down and abandoning module Sequencer (60)
+[2016.10.14-10.06.53:487][225]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (59)
+[2016.10.14-10.06.53:487][225]LogModuleManager: Shutting down and abandoning module MessageLog (58)
+[2016.10.14-10.06.53:487][225]LogModuleManager: Shutting down and abandoning module AssetTools (57)
+[2016.10.14-10.06.53:487][225]LogModuleManager: Shutting down and abandoning module UMGEditor (56)
+[2016.10.14-10.06.53:487][225]LogModuleManager: Shutting down and abandoning module UMG (55)
+[2016.10.14-10.06.53:487][225]LogModuleManager: Shutting down and abandoning module SlateReflector (54)
+[2016.10.14-10.06.53:487][225]LogModuleManager: Shutting down and abandoning module Slate (53)
+[2016.10.14-10.06.53:487][225]LogModuleManager: Shutting down and abandoning module EditorStyle (52)
+[2016.10.14-10.06.53:489][225]LogModuleManager: Shutting down and abandoning module Messaging (51)
+[2016.10.14-10.06.53:489][225]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (50)
+[2016.10.14-10.06.53:489][225]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (49)
+[2016.10.14-10.06.53:489][225]LogModuleManager: Shutting down and abandoning module XAudio2 (48)
+[2016.10.14-10.06.53:489][225]LogModuleManager: Shutting down and abandoning module Networking (46)
+[2016.10.14-10.06.53:489][225]LogModuleManager: Shutting down and abandoning module Core (45)
+[2016.10.14-10.06.53:489][225]LogModuleManager: Shutting down and abandoning module KismetCompiler (44)
+[2016.10.14-10.06.53:489][225]LogModuleManager: Shutting down and abandoning module PhysXFormats (43)
+[2016.10.14-10.06.53:489][225]LogModuleManager: Shutting down and abandoning module MeshUtilities (42)
+[2016.10.14-10.06.53:489][225]LogModuleManager: Shutting down and abandoning module AssetRegistry (41)
+[2016.10.14-10.06.53:489][225]LogModuleManager: Shutting down and abandoning module DerivedDataCache (40)
+[2016.10.14-10.06.53:560][225]LogDerivedDataCache: Shutdown
+[2016.10.14-10.06.53:560][225]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (39)
+[2016.10.14-10.06.53:560][225]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (38)
+[2016.10.14-10.06.53:560][225]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (37)
+[2016.10.14-10.06.53:560][225]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (36)
+[2016.10.14-10.06.53:560][225]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (35)
+[2016.10.14-10.06.53:560][225]LogModuleManager: Shutting down and abandoning module ImageWrapper (34)
+[2016.10.14-10.06.53:560][225]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (33)
+[2016.10.14-10.06.53:560][225]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (32)
+[2016.10.14-10.06.53:560][225]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (31)
+[2016.10.14-10.06.53:560][225]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (30)
+[2016.10.14-10.06.53:560][225]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (29)
+[2016.10.14-10.06.53:560][225]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (28)
+[2016.10.14-10.06.53:560][225]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (27)
+[2016.10.14-10.06.53:560][225]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (26)
+[2016.10.14-10.06.53:560][225]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (25)
+[2016.10.14-10.06.53:560][225]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (24)
+[2016.10.14-10.06.53:560][225]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (23)
+[2016.10.14-10.06.53:560][225]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2016.10.14-10.06.53:560][225]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2016.10.14-10.06.53:560][225]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2016.10.14-10.06.53:560][225]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2016.10.14-10.06.53:560][225]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2016.10.14-10.06.53:561][225]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.10.14-10.06.53:561][225]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.10.14-10.06.53:561][225]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.10.14-10.06.53:561][225]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.10.14-10.06.53:561][225]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.10.14-10.06.53:561][225]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.10.14-10.06.53:561][225]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.10.14-10.06.53:561][225]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.10.14-10.06.53:561][225]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.10.14-10.06.53:561][225]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.10.14-10.06.53:561][225]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.10.14-10.06.53:561][225]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.10.14-10.06.53:561][225]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.10.14-10.06.53:561][225]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.10.14-10.06.53:561][225]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.10.14-10.06.53:561][225]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.10.14-10.06.53:562][225]LogExit: Exiting.
+[2016.10.14-10.06.53:563][225]Log file closed, 10/14/16 19:06:53
