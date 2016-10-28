@@ -1,6 +1,6 @@
 # UnrealEngine4-MixedReality
 
-UnityだけでなくUE4でもMRを使えるように作りました。
+UE4を使って、MRを使えるように作りました。
 
 Unreal Engine 4とOBS Studioを使ったMixedRealityを実現するためのコードとサンプルを公開致します。  
 
